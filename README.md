@@ -60,6 +60,8 @@ Print
 
 CSV
 
+> Project ini dibuat untuk mempermudah administrasi lab dalam pencatatan transaksi/pengujian, pengelolaan master data, serta pembuatan laporan yang dapat diekspor (CSV/Print).
+
 Tech Stack
 
 Backend
@@ -191,6 +193,39 @@ Laporan
 rekap pengujian
 
 export Print / CSV
+
+## Demo
+Saat ini belum ada versi live hosting.
+
+Untuk melihat tampilan dan alur aplikasi tanpa instalasi, silakan cek bagian **Screenshots** di bawah.
+(Opsional) Demo Video: _tambahkan link setelah upload_.
+
+## Screenshots
+| Login | Dashboard |
+|---|---|
+| ![](docs/screenshots/login.png) | ![](docs/screenshots/dashboard.png) |
+
+| Nota Pengujian | Master Jenis Uji |
+|---|---|
+| ![](docs/screenshots/pengujian.png) | ![](docs/screenshots/jenis-uji.png) |
+
+| Kepala Lab | Manajemen User |
+|---|---|
+| ![](docs/screenshots/kepala-lab.png) | ![](docs/screenshots/user.png) |
+
+| Profil | Laporan Pengujian |
+|---|---|
+| ![](docs/screenshots/profil.png) | ![](docs/screenshots/laporan.png) |
+
+## Alur Penggunaan (Singkat)
+1. Login sebagai **Admin/Petugas**
+2. Kelola **Nota Pengujian** (Umum/Mahasiswa)
+3. Kelola master data (**Jenis Uji**, **Kepala Lab**, **User**)
+4. Generate **Laporan Pengujian** dengan filter tanggal/tipe, lalu export **Print/CSV**
+
+## Akun Demo (Local)
+Akun demo mengikuti data user pada file database `.sql` yang diimport.
+Silakan cek tabel `users` setelah import untuk kredensial login.
 
 Lisensi
 
