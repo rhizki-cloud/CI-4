@@ -1,0 +1,51 @@
+.page-title{
+    font-weight:800;
+    letter-spacing:.3px;
+  }
+  .badge-nota{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: #1e3a8a;
+    border: 1px solid #dbeafe;
+  }
+  .card-soft{
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 10px 26px rgba(0,0,0,.08);
+  }
+  .stat-mini{
+    border-radius: 14px;
+    border: 1px solid rgba(0,0,0,.06);
+  }
+  .stat-mini .value{
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .stat-mini .label{
+    color: #6c757d;
+    font-size: 12px;
+  }
+  .btn-pill{
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-weight: 700;
+  }
+  .table thead th{
+    background:#f8fafc;
+    font-weight:700;
+  }
+  .td-actions .btn{
+    width: 40px;
+    height: 36px;
+    display: inline-flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 10px;
+  }
+  .filters .form-control{
+    border-radius: 10px;
+  }
+  

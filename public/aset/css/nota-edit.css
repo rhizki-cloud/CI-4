@@ -1,0 +1,40 @@
+/* layout halaman edit nota seperti screenshot */
+.form-label { font-weight: 500; margin-bottom: .35rem; }
+.input-soft { background:#eef4ff; }   /* nama penerima kebiruan */
+.section-title { font-weight:700; font-size:14px; letter-spacing:.3px; color:#2b2b2b; }
+.hr-soft { border-top:1px solid #e6e6e6; margin:10px 0 18px; }
+
+.table-transaksi th { font-weight:600; color:#2b2b2b; border:0; }
+.table-transaksi td { border:0; padding:.9rem .75rem; }
+.table-transaksi tbody tr { border-bottom:1px solid #f0f0f0; }
+.table-transaksi tbody tr:last-child { border-bottom:0; }
+
+.btn-trash {
+  width:36px; height:36px;
+  display:inline-flex; align-items:center; justify-content:center;
+  border-radius:2px;
+}
+
+.bottom-bar {
+  position: sticky;
+  bottom: 0;
+  background: #fff;
+  border-top: 1px solid #e6e6e6;
+  padding: 12px 0;
+  margin-top: 18px;
+}
+
+.btn-green {
+  background:#198754; border-color:#198754; color:#fff;
+  padding:10px 16px; border-radius:4px; font-weight:600;
+}
+.btn-green:hover { filter: brightness(.95); color:#fff; }
+
+.btn-blue {
+  background:#2f6fed; border-color:#2f6fed; color:#fff;
+  padding:10px 16px; border-radius:4px; font-weight:600;
+}
+.btn-gray {
+  background:#6c757d; border-color:#6c757d; color:#fff;
+  padding:10px 16px; border-radius:4px; font-weight:600;
+}

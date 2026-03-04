@@ -1,0 +1,35 @@
+.page-title{ font-weight:900; letter-spacing:.2px; }
+.card-soft{
+  border:none; border-radius:14px;
+  box-shadow: 0 10px 26px rgba(0,0,0,.08);
+}
+.stat-mini{
+  border-radius:14px;
+  border:1px solid rgba(0,0,0,.06);
+}
+.stat-mini .label{ color:#6c757d; font-size:12px; }
+.stat-mini .value{ font-size:22px; font-weight:900; }
+
+.btn-pill{ border-radius:10px; padding:8px 12px; font-weight:800; }
+.table thead th{ background:#f8fafc; font-weight:800; }
+
+.badge-status{ padding:6px 10px; border-radius:999px; font-weight:700; }
+.badge-aktif{ background:#e8fff3; color:#0f5132; border:1px solid #b7f7d4; }
+.badge-non{ background:#ffecec; color:#842029; border:1px solid #f5c2c7; }
+
+.price{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace;
+  font-size: 13px;
+  background:#f1f5f9;
+  border:1px solid #e2e8f0;
+  padding:4px 8px;
+  border-radius:999px;
+  display:inline-block;
+}
+
+.td-actions .btn{
+  width:40px; height:36px;
+  display:inline-flex; align-items:center; justify-content:center;
+  border-radius:10px;
+}
+.filters .form-control{ border-radius:10px; }

@@ -1,0 +1,71 @@
+/* Area konten seperti contoh */
+.content-wrapper { background:#f4f6f9; }
+
+/* Judul section */
+.section-head {
+  font-weight:700;
+  font-size:14px;
+  color:#2b2b2b;
+  letter-spacing:.3px;
+}
+.hr-line {
+  border-top:1px solid #dcdcdc;
+  margin:12px 0 22px;
+}
+
+/* Panel customer abu muda */
+.panel-soft {
+  background:#eef0f3;
+  border:1px solid #e2e6ea;
+  border-radius:4px;
+  padding:22px;
+}
+
+/* Label dan input */
+.form-label {
+  font-weight:500;
+  margin-bottom:.35rem;
+  color:#2b2b2b;
+}
+.input-readonly {
+  background:#e9ecef;
+}
+
+/* Tombol hijau update */
+.btn-update {
+  background:#198754;
+  border-color:#198754;
+  color:#fff;
+  padding:10px 18px;
+  font-weight:600;
+  border-radius:4px;
+}
+.btn-update:hover { filter:brightness(.95); color:#fff; }
+
+/* Tabel transaksi */
+.table-transaksi th {
+  border:0 !important;
+  font-weight:600;
+  color:#2b2b2b;
+}
+.table-transaksi td {
+  border:0 !important;
+  padding:18px 12px;
+  vertical-align:middle;
+}
+.table-transaksi tbody tr {
+  border-bottom:1px solid #e9ecef;
+}
+.table-transaksi tbody tr:last-child { border-bottom:0; }
+
+/* tombol hapus merah kotak */
+.btn-trash {
+  width:34px; height:34px;
+  border-radius:2px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* jarak bawah sebelum form tambah */
+.spacer-30 { height:30px; }

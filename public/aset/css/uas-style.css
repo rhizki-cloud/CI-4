@@ -1,0 +1,206 @@
+/* =====================================================
+   ROOT VARIABLE
+   ===================================================== */
+   :root{
+    --sb-bg1:#0f2234;
+    --sb-bg2:#0e2031;
+    --sb-text:rgba(255,255,255,.82);
+    --sb-muted:rgba(255,255,255,.55);
+    --sb-hover:rgba(255,255,255,.08);
+    --sb-border:rgba(255,255,255,.10);
+    --sb-active1:#0d6efd;
+    --sb-active2:#1f7bff;
+  }
+  
+  /* =====================================================
+     LOGIN
+     ===================================================== */
+  .login-page{
+    background: url("/assets/img/bg-login.jpg") center/cover no-repeat fixed;
+  }
+  .login-box{ width: 380px; }
+  .login-card-title{ font-weight: 700; letter-spacing: .4px; }
+  .login-subtitle{ font-size: 12px; color: #6c757d; }
+  
+  /* =====================================================
+     LAYOUT
+     ===================================================== */
+  .content-wrapper{ background: #f4f6f9; }
+  .card-title{ font-weight: 600; }
+  
+  /* =====================================================
+     BUTTON UAS
+     ===================================================== */
+  .btn-uas-green{ background:#28a745; border-color:#28a745; color:#fff; }
+  .btn-uas-blue { background:#007bff; border-color:#007bff; color:#fff; }
+  .btn-uas-yellow{ background:#ffc107; border-color:#ffc107; color:#212529; }
+  .btn-uas-red  { background:#dc3545; border-color:#dc3545; color:#fff; }
+  
+  /* =====================================================
+     TABLE
+     ===================================================== */
+  .table thead th{
+    background: #f8f9fa;
+    font-weight: 600;
+  }
+  
+  /* =====================================================
+     BADGE
+     ===================================================== */
+  .badge-uas-mhs{ background:#28a745; }
+  .badge-uas-um { background:#007bff; }
+  
+  /* =====================================================
+     SIDEBAR (AdminLTE)
+     ===================================================== */
+  .main-sidebar{
+    background: linear-gradient(180deg,var(--sb-bg1),var(--sb-bg2));
+  }
+  
+  /* wrapper */
+  .sidebar{
+    padding: 10px 0 12px;
+  }
+  
+  /* =====================================================
+     BRAND BOX
+     ===================================================== */
+  .sidebar-brand{
+    margin: 0 12px 14px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: rgba(255,255,255,.05);
+    border: 1px solid var(--sb-border);
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.08),
+      0 8px 18px rgba(0,0,0,.18);
+  }
+  .sidebar-brand .title{
+    margin:0;
+    font-size:18px;
+    font-weight:900;
+    line-height:1.1;
+    color:#fff;
+  }
+  .sidebar-brand .sub{
+    margin:6px 0 0;
+    font-size:12px;
+    line-height:1.3;
+    color: rgba(255,255,255,.70);
+  }
+  
+  /* divider */
+  .sidebar-divider{
+    height: 1px;
+    margin: 12px 14px;
+    background: var(--sb-border);
+    border: none;
+  }
+  
+  /* =====================================================
+     SECTION HEADER
+     ===================================================== */
+  .nav-sidebar .nav-header{
+    color: var(--sb-muted) !important;
+    font-size: 11px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin: 14px 14px 6px;
+    padding: 0;
+  }
+  
+  /* =====================================================
+     MENU ITEM
+     ===================================================== */
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link{
+    position: relative;
+    margin: 6px 12px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    color: var(--sb-text);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: all .15s ease;
+  }
+  
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link i,
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link .nav-icon{
+    width: 22px;
+    min-width: 22px;
+    text-align: center;
+    font-size: 16px;
+    opacity: .95;
+  }
+  
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link p{
+    margin: 0;
+    font-weight: 750;
+    font-size: 15px;
+    letter-spacing: .2px;
+  }
+  
+  /* hover */
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link:hover{
+    background: var(--sb-hover);
+    color: #fff;
+    transform: translateX(2px);
+  }
+  
+  /* active */
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link.active{
+    background: linear-gradient(90deg,var(--sb-active1),var(--sb-active2));
+    color: #fff !important;
+    box-shadow: 0 8px 20px rgba(13,110,253,.40);
+  }
+  
+  /* =====================================================
+     DASHBOARD CENTER (tengah + dekat brand)
+     ===================================================== */
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link.dashboard-center{
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 6px 12px 10px !important; /* dekat brand */
+  }
+  
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link.dashboard-center p{
+    flex: 0 0 auto !important;
+    width: auto !important;
+  }
+  
+  /* =====================================================
+     RAPATKAN KEPALA LAB + USER
+     ===================================================== */
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link.kepala-lab-link{
+    margin-bottom: 2px !important;
+  }
+  .main-sidebar .nav-sidebar > .nav-item > .nav-link.manajemen-user{
+    margin-top: 2px !important;
+  }
+
+  /* ===============================
+   DASHBOARD LEBIH KE TENGAH (FINAL)
+   =============================== */
+
+/* Turunkan posisi Dashboard */
+.main-sidebar .nav-sidebar > .nav-item:first-child{
+  margin-top: 14px;   /* KUNCI: geser ke bawah */
+}
+
+/* Dashboard benar-benar center */
+.main-sidebar .nav-sidebar > .nav-item:first-child > .nav-link{
+  justify-content: center !important;
+  text-align: center !important;
+  padding: 14px 16px !important;
+}
+
+/* Ikon & teks center rapih */
+.main-sidebar .nav-sidebar > .nav-item:first-child > .nav-link i{
+  margin-right: 10px !important;
+}
+
+.main-sidebar .nav-sidebar > .nav-item:first-child > .nav-link p{
+  flex: 0 0 auto !important;
+  width: auto !important;
+  text-align: center !important;
+}
